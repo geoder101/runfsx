@@ -1,0 +1,6 @@
+language: csharp
+sudo: false
+script: make travisci
+branches:
+  except:
+    - gh-pages

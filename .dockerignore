@@ -1,0 +1,7 @@
+.git
+.gitmodules
+.travis.yml
+docker/
+includes/
+LICENSE
+README.md

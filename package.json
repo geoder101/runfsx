@@ -1,0 +1,17 @@
+{
+  "name": "runfsx",
+  "version": "0.1.0",
+  "description": "Program to run F# scripts",
+  "license": "MIT",
+  "repository": "geoder101/runfsx",
+  "author": {
+    "name": "George Dernikos",
+    "email": "geoder101@gmail.com",
+    "url": "https://github.com/geoder101"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "runfsx": "./runfsx.sh"
+  },
+  "private": true
+}
