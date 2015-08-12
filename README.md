@@ -1,6 +1,6 @@
 # Synopsis
 
-[![Build Status](https://secure.travis-ci.org/geoder101/runfsx.png?branch=master)](https://travis-ci.org/geoder101/runfsx)
+[![Build Status](https://travis-ci.org/geoder101/runfsx.svg?branch=master)](https://travis-ci.org/geoder101/runfsx)
 
 `runfsx` is a program to run F# scripts (.fsx).
 
