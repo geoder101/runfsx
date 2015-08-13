@@ -1,8 +1,6 @@
 .SILENT:
 .PHONY: test
 
-BUILD_TAG := build-$(shell uuidgen | tr -d '-' | tr '[:upper:]' '[:lower:]')
-
 default:
 	$(error Please select a target)
 
@@ -16,6 +14,7 @@ test: install
 
 ## Test in a dockerized environment
 test-dockerized:
+	$(eval BUILD_TAG := build-$(shell uuidgen | tr -d '-' | tr '[:upper:]' '[:lower:]'))
 	docker build -t $(BUILD_TAG) -f docker/image/test.dockerfile .
 	docker rmi $(BUILD_TAG) 2>/dev/null || true
 
