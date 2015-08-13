@@ -16,7 +16,7 @@ test: install
 
 ## Test in a dockerized environment
 test-dockerized:
-	docker build -t $(BUILD_TAG) -f docker/image/test .
+	docker build -t $(BUILD_TAG) -f docker/image/test.dockerfile .
 	docker rmi $(BUILD_TAG) 2>/dev/null || true
 
 ## Uninstall local installation of the package
