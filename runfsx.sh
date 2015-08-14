@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-fsharpi --quiet --exec "$1" -- "${@:2}"
+exec fsharpi --quiet --exec "$1" -- "${@:2}"
