@@ -2,7 +2,7 @@
 .PHONY: test
 
 default:
-	$(error Please select a target)
+	$(error Please select a target. Type `make help` for more information.)
 
 ## Install package locally
 install:
